@@ -6,7 +6,7 @@ Version: 1.5
 Date: 2017-02-27
 Author: John Muschelli <muschellij2@gmail.com>
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: Structural magnetic resonance imaging ('MRI') data
+Description: Structural magnetic resonance imaging ('sMRI') data
        from the 'Kirby21' reproducibility study <http://dx.doi.org/10.1016/j.neuroimage.2010.11.047>.
 License: GPL-2
 Imports: 
