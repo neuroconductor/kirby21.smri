@@ -3,7 +3,7 @@
 #' @description Return the filenames for the Structural images
 #' @param ... arguments to pass to \code{\link{get_image_filenames}},
 #' \code{modalities = c("T1", "T2", "FLAIR"} so it cannot be specified
-#' @return Vector fo filenames
+#' @return Vector of filenames
 #' 
 #' @examples
 #' get_smri_filenames()
