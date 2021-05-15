@@ -1,24 +1,25 @@
 Package: kirby21.smri
 Type: Package
-Title: Example Structural Data from the Multi-Modal MRI
-       Reproducibility Resource
+Title: Example Structural Data from the Multi-Modal MRI Reproducibility
+        Resource
 Version: 1.5
 Date: 2017-02-27
 Author: John Muschelli <muschellij2@gmail.com>
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: Structural magnetic resonance imaging ('sMRI') data
-       from the 'Kirby21' reproducibility study <doi:10.1016/j.neuroimage.2010.11.047>.
+Description: Structural magnetic resonance imaging ('sMRI') data from
+        the 'Kirby21' reproducibility study
+        <doi:10.1016/j.neuroimage.2010.11.047>.
 License: GPL-2
-Imports: 
-    kirby21.base (>= 1.5),
-    kirby21.t1,
-    kirby21.t2,
-    kirby21.flair
+Imports: kirby21.base (>= 1.5), kirby21.t1, kirby21.t2, kirby21.flair
 RoxygenNote: 5.0.1.9000
 URL: https://www.nitrc.org/projects/multimodal/
-Remotes: 
-    muschellij2/kirby21.base,
-    muschellij2/kirby21.t1,
-    muschellij2/kirby21.t2,
-    muschellij2/kirby21.flair
-
+Repository: Neuroconductor
+Suggests: 
+    covr,
+    testthat
+Remotes:  
+    neuroconductor/kirby21.base@05f22dce05785d199035f6a933598c1a9fd9119d,
+    neuroconductor/kirby21.flair@303fcd86a0d8f785f6bf7ac62f47895456b7f867,
+    neuroconductor/kirby21.t1@d9d2c5888aae676ae04f31146111014c589ea26f,
+    neuroconductor/kirby21.t2@cbde70c44537f6edc2a7ea19c806e2787587d671
+biocViews: 
